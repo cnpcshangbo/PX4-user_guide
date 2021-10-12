@@ -4,7 +4,7 @@ const getSidebar = require('./get_sidebar.js');
 
 
 module.exports = {
-  base: process.env.BRANCH_NAME ? "/"+process.env.BRANCH_NAME+"/" : '/px4_user_guide/',
+  base: https://cnpcshangbo.github.io/PX4-user_guide/,
   patterns : ['README.md',
       'en/**/*.md',
       'zh/**/*.md',
